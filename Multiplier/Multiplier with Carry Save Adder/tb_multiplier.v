@@ -3,7 +3,7 @@
 /*
  * Testbench file for 32-bit Multiplier with Carry Save Adder
  *
- * Creation Date: 2024/09/24
+ * Last Modified Date: 2024/09/25
  * Written By YHC03
 */
 
@@ -19,17 +19,17 @@ module tb_multiplier;
     // 10 * 30 = 300
     A <= 10;
     B = 30;
-    #100;
+    #10;
     
     // 2000 * 1250 = 2500000
     A <= 2000;
     B = 1250;
-    #100;
+    #10;
     
     // Finalize
     A<=0;
     B=1;
-    $finish;
+    $exit;
   end
   
 endmodule;

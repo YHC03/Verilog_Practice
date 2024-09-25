@@ -1,5 +1,9 @@
 # Multiplier with Carry Save Adder
 
+### 파일 목록
+multiplier.v : Verilog 파일  
+tb_multiplier.v : Verilog Testbench 파일
+
 ---
 ### 기능
 두 정수를 입력받아 곱셈 연산을 한다.  
